@@ -1,4 +1,5 @@
 <?php
+namespace Zit\View;
 
 class View
 {

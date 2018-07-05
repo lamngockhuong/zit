@@ -1,4 +1,5 @@
 <?php
+namespace Zit\Http\Exception;
 
 class Error
 {
