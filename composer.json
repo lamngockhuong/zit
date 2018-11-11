@@ -1,6 +1,6 @@
 {
   "name": "lamngockhuong/zit",
-  "description": "Zit, the simple PHP MVC Framework",
+  "description": "Zit, A simple PHP MVC Framework",
   "type": "php",
   "license": "BSD-3-Clause",
   "authors": [
@@ -16,6 +16,9 @@
     "twig/twig": "~2.0"
   },
   "autoload": {
+    "files": [
+      "src/Support/helpers.php"
+    ],
     "psr-4": {
       "Zit\\": "src/"
     }
